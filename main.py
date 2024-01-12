@@ -39,4 +39,4 @@ for song in songs_text:
     except:
         print("song not found")
 sp.playlist_add_items(playlist_id=play_list_id, items=song_uris)
-print(song_uris)
+
